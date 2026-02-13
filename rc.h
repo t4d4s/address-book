@@ -1,0 +1,20 @@
+#ifndef RC_H
+#define RC_H
+
+// Success Codes
+#define SUCCESS 0
+#define SUCCESS_ADDRESS_FOUND 1
+#define SUCCESS_ENTRY_ADDED 2
+#define SUCCESS_ENTRY_DELETED 3
+
+// Error Codes
+#define ERROR_MEMORY_ALLOCATION -1
+#define ERROR_FILE_NOT_FOUND -2
+#define ERROR_INVALID_ARGUMENT -3
+#define ERROR_FILE_READ -4 
+#define ERROR_EMPTY_LIST -5
+#define ERROR_INVALID_POSITION -6
+#define ERROR_CRITERIA_NOT_FOUND -7
+
+
+#endif
